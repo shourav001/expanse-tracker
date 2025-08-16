@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "1755339595570",
+      "username": "user",
+      "password": "$2a$10$pEMSq35TQgcmIFdsHMb9ze8VuV19PIliz5auMTCVGNMQX3AmGTuLC",
+      "monthlyBudget": 1000,
+      "budgetAlertThreshold": 80,
+      "createdAt": "2025-08-16T10:19:55.570Z",
+      "updatedAt": "2025-08-16T10:19:55.570Z"
+    },
+    {
+      "id": "1755340043656",
+      "username": "user1",
+      "password": "$2a$10$AdCf6MMH6L2C28mYrzzLrOgkjaczhEm61E4Zjv4PdCQ7jZOSCt7V2",
+      "monthlyBudget": 50000,
+      "createdAt": "2025-08-16T10:27:23.656Z",
+      "updatedAt": "2025-08-16T10:27:23.656Z"
+    },
+    {
+      "id": "1755364477154",
+      "username": "shourov",
+      "password": "$2a$10$ROYRiuBBLOQ4J1W4efv/UulksOXscqtFWaJxb5N4FEbDmRGmR9hsq",
+      "monthlyBudget": 200000,
+      "createdAt": "2025-08-16T17:14:37.154Z",
+      "updatedAt": "2025-08-16T21:18:09.581Z",
+      "budgetAlertThreshold": 40
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "1755339816568",
+      "userId": "1755339595570",
+      "title": "Shopping",
+      "amount": "5000",
+      "type": "expense",
+      "category": "shopping",
+      "date": "2025-08-16",
+      "createdAt": "2025-08-16T10:23:36.568Z",
+      "updatedAt": "2025-08-16T10:23:36.568Z"
+    },
+    {
+      "_id": "1755339839907",
+      "userId": "1755339595570",
+      "title": "Salary",
+      "amount": "50000",
+      "type": "income",
+      "category": "salary",
+      "date": "2025-08-16",
+      "createdAt": "2025-08-16T10:23:59.907Z",
+      "updatedAt": "2025-08-16T10:23:59.907Z"
+    },
+    {
+      "_id": "1755378187164",
+      "userId": "1755364477154",
+      "title": "watch",
+      "amount": "20000",
+      "type": "expense",
+      "category": "shopping",
+      "date": "2025-08-16",
+      "createdAt": "2025-08-16T21:03:07.164Z",
+      "updatedAt": "2025-08-16T21:09:10.535Z"
+    },
+    {
+      "_id": "1755378296640",
+      "userId": "1755364477154",
+      "title": "business",
+      "amount": "100000",
+      "type": "income",
+      "category": "other",
+      "date": "2025-08-17",
+      "createdAt": "2025-08-16T21:04:56.640Z",
+      "updatedAt": "2025-08-16T21:04:56.640Z"
+    }
+  ]
+}
